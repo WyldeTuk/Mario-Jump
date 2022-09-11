@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-board {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../images/thumb-1920-5185.jpg);
+    background-image: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+.autor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+    gap: 25px;
+    padding-top: 20px;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    /* background-color: blue; */
+    position: absolute;
+    width: 100%;
+}
+
+.botton{
+    width: 150px;
+    border-radius: 50px;
+    padding: 12px;
+    padding-top: 30px;
+}
+
+.pes{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+.mario{
+    position: absolute;
+    bottom: 0;
+    width: 250px;
+    right: 60px;
+}
+
+.autor .nome{
+    font-size: 30px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.autor .titulo{
+    font-size: 40px;
+    font-style: oblique;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.autor .information{
+    background-color: rgba(0, 255, 179, 0.281);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+
+}
